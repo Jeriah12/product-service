@@ -1,6 +1,6 @@
-# Product Service
+# product-service
 
-The **Product Service** handles product catalog management, including product listings, details, search, and filtering for the e-commerce platform.
+The **product-service** handles product catalog management, including product listings, details, search, and filtering for the e-commerce platform.
 
 ## Table of Contents
 
