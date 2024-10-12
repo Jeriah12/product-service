@@ -38,9 +38,9 @@ The **Product Service** handles product catalog management, including product li
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/your-username/product-service.git
-   cd product-service
+  ```bash
+git clone https://github.com/your-username/product-service.git
+cd product-service
 
 2. **Install Dependencies:**
 
@@ -89,5 +89,5 @@ The service should now be accessible at http://localhost:5000
 ```bash
 pytest
 ```
-This command will execute all tests located in the tests directory.
+ This command will execute all tests located in the tests directory.
 
