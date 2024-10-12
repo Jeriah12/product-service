@@ -15,10 +15,10 @@ The **Product Service** handles product catalog management, including product li
 
 ## Features
 
-- Product Listings
-- Product Details
-- Search and Filtering
-- Inventory Management
+- **Product Listings:** Provides a list of all available products in the catalog.
+- **Product Details:** Retrieves detailed information for a specific product.
+- **Search and Filtering:** Allows users to search for products by keyword and filter by attributes like price or category.
+- **Inventory Management:** Tracks product stock and updates inventory levels.
 
 ## Technology Stack
 
