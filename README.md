@@ -42,3 +42,52 @@ The **Product Service** handles product catalog management, including product li
    git clone https://github.com/your-username/product-service.git
    cd product-service
 
+2. **Install Dependencies:**
+
+  ```bash
+pip install -r requirements.txt
+```
+
+3. **Environment Variables:**
+Create a .env file in the root directory and add the following environment variables:
+
+ ```dotenv
+PORT=5000
+DATABASE_URL=postgresql://user:password@localhost:5432/productdb
+PORT: The port number on which the service will run.
+DATABASE_URL: PostgreSQL connection string.
+```
+
+4. **Running Docker:**
+
+Build the docker image:
+
+ ```bash
+docker build -t product-service:latest .
+ ```
+***Run the Docker container:***
+
+ ```bash
+docker run -p 5000:5000 --env-file .env product-service:latest
+ ```
+The service should now be accessible at http://localhost:5000
+
+5. **API Endpoints:**
+   
+***Get all products***
+* Endpoint: GET /api/v1/products
+* Description: Retrieves a list of all products.
+***Get product by ID***
+* Endpoint: GET /api/v1/products/{product_id}
+* Description: Retrieves details of a specific product.
+***Search products***
+* Endpoint: GET /api/v1/products/search?q=keyword
+* Description: Searches for products matching the keyword.
+
+6. **Testing:**
+* Run unit tests using:
+```bash
+pytest
+```
+This command will execute all tests located in the tests directory.
+
