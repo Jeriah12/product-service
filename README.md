@@ -87,7 +87,7 @@ docker run -p 5000:5000 --env-file .env product-service:latest
   * Endpoint: GET /api/v1/products/search?q=keyword
     * Description: Searches for products matching the keyword.
 
-6. **Testing:**
+## Testing
   * Run unit tests using:
   ```bash
   pytest
