@@ -41,6 +41,7 @@ The **Product Service** handles product catalog management, including product li
   ```bash
 git clone https://github.com/your-username/product-service.git
 cd product-service
+```
 
 2. **Install Dependencies:**
 
