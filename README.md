@@ -76,18 +76,18 @@ docker run -p 5000:5000 --env-file .env product-service:latest
  
   ***Get all products***
   * Endpoint: GET /api/v1/products
-  * Description: Retrieves a list of all products.
+    * Description: Retrieves a list of all products.
   ***Get product by ID***
   * Endpoint: GET /api/v1/products/{product_id}
-  * Description: Retrieves details of a specific product.
+    * Description: Retrieves details of a specific product.
   ***Search products***
   * Endpoint: GET /api/v1/products/search?q=keyword
-  * Description: Searches for products matching the keyword.
+    * Description: Searches for products matching the keyword.
 
 6. **Testing:**
   * Run unit tests using:
   ```bash
   pytest
   ```
-    This command will execute all tests located in the tests directory.
+  This command will execute all tests located in the tests directory.
 
