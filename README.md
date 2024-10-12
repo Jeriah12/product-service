@@ -89,5 +89,5 @@ The service should now be accessible at http://localhost:5000
 ```bash
 pytest
 ```
- This command will execute all tests located in the tests directory.
+  This command will execute all tests located in the tests directory.
 
