@@ -60,17 +60,17 @@ DATABASE_URL: PostgreSQL connection string.
 
 4. **Running Docker:**
 
-Build the docker image:
-
- ```bash
-docker build -t product-service:latest .
- ```
-***Run the Docker container:***
-
- ```bash
-docker run -p 5000:5000 --env-file .env product-service:latest
- ```
-The service should now be accessible at http://localhost:5000
+  Build the docker image:
+  
+   ```bash
+  docker build -t product-service:latest .
+   ```
+  ***Run the Docker container:***
+  
+   ```bash
+  docker run -p 5000:5000 --env-file .env product-service:latest
+   ```
+  The service should now be accessible at http://localhost:5000
 
 5. **API Endpoints:**
    
